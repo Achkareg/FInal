@@ -290,24 +290,15 @@ body {
 }
 
 .price {
-  background-image: url("../img/price/Rectangle.png");
+  background-image: url("../img/price/price-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1086px;
-}
-
-.price_pink_header {
-  background-image: url("../img/price/Rectangle2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 245px;
+  height: 1069px;
   position: relative;
-  top: -17px;
-  z-index: -1;
 }
 
 .price__top {
-  padding-top: 27px;
+  padding-top: 272px;
   padding-bottom: 80px;
   text-align: center;
 }
@@ -751,7 +742,7 @@ body {
 
   .header__top {
     padding: 20px 0;
-
+    
   }
 
   .logo__img {
@@ -857,7 +848,7 @@ body {
   }
 
   .price__top {
-    padding: 27px 20px 0 20px;
+    padding: 272px 20px 0 20px;
   }
 
   .companies__column-inner {
@@ -951,6 +942,11 @@ body {
 
   .footer__menu {
     display: none;
+  }
+
+  .footer__row {
+    padding: 36px 0px;
+
   }
 
   /* полоса прокрутки (скроллбар) */
